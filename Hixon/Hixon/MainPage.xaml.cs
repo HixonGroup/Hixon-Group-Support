@@ -19,7 +19,7 @@ namespace Hixon
             Button hixongroupweb = new Button
             {
                 Text = "Hixon Group Website",
-                HorizontalOptions = LayoutOptions.Start,
+                HorizontalOptions = LayoutOptions.StartAndExpand,
                 VerticalOptions = LayoutOptions.Start
             };
 
