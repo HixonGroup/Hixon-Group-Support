@@ -2,11 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Hixon.MainPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="HixonGroupWeb" Order="Primary" Icon="Microsoft.png" Text="Hixon Group Website" Priority="0" Clicked="Hixongroupweb" />
+        <ToolbarItem Name="ZendeskSupportWeb" Order="Primary" Icon="Xamarin.png" Text="Hixon Group Support" Priority="1" Clicked="Zendeskweb" />
+    </ContentPage.ToolbarItems>
+
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="HixonGroupWeb" Style="{StaticResource buttonStyle}" BorderWidth="1" Text="Hixon Group Website"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" Clicked="Hixongroupweb"/>
+            <Button x:Name="ZendeskSupportWeb" Style="{StaticResource buttonStyle}" BorderWidth="1" Text="Hixon Group Support"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" Clicked="Zendeskweb"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

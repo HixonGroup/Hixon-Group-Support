@@ -5,10 +5,17 @@
 	<Application.Resources>
 		<ResourceDictionary>
             <!--Global Styles-->
-            <Color x:Key="NavigationPrimary">#24465d</Color>
+            <Color x:Key="NavigationPrimary">#ffffff</Color>
             <Style TargetType="NavigationPage">
                 <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
                 <Setter Property="BarTextColor" Value="White"/>
+            </Style>
+            <!--Button Styles-->
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="AliceBlue" />
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="WidthRequest" Value="350" />
+                <Setter Property="HeightRequest" Value="350" />
             </Style>
         </ResourceDictionary>
 	</Application.Resources>
