@@ -4,18 +4,35 @@
              x:Class="Hixon.MainPage">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Name="HixonGroupWeb" Order="Primary" Icon="Microsoft.png" Text="Hixon Group Website" Priority="0" Clicked="Hixongroupweb" />
-        <ToolbarItem Name="ZendeskSupportWeb" Order="Primary" Icon="Xamarin.png" Text="Hixon Group Support" Priority="1" Clicked="Zendeskweb" />
+        <ToolbarItem Name="HixonGroupWeb" Order="Primary" Text="Hixon Group Website" Priority="0" Clicked="Hixongroupweb" />
+        <ToolbarItem Name="ZendeskSupportWeb" Order="Primary" Text="Hixon Group Support" Priority="1" Clicked="Zendeskweb" />
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
         <StackLayout>
-            <Button x:Name="HixonGroupWeb" Style="{StaticResource buttonStyle}" BorderWidth="1" Text="Hixon Group Website"
-                VerticalOptions="Center"
-                HorizontalOptions="Center" Clicked="Hixongroupweb"/>
-            <Button x:Name="ZendeskSupportWeb" Style="{StaticResource buttonStyle}" BorderWidth="1" Text="Hixon Group Support"
-                VerticalOptions="Center"
-                HorizontalOptions="Center" Clicked="Zendeskweb"/>
+            <Label x:Name="Hixon" 
+                   VerticalOptions="Start"
+                   HorizontalOptions="FillAndExpand" 
+                   Text="We Help Businesses To Succeed Using Innovative Technology Solutions" 
+                   BackgroundColor="DodgerBlue"/>
+
+
+            <Button x:Name="HixonGroupWeb" 
+                    Style="{StaticResource buttonStyle}" 
+                    BorderWidth="1" 
+                    Text="Hixon Group Website"
+                    VerticalOptions="Start"
+                    HorizontalOptions="FillAndExpand" 
+                    Clicked="Hixongroupweb"/>
+            
+            <Button x:Name="ZendeskSupportWeb" 
+                    Style="{StaticResource buttonStyle}" 
+                    BorderWidth="1" 
+                    Text="Hixon Group Support"
+                    VerticalOptions="Start"
+                    HorizontalOptions="FillAndExpand" 
+                    Clicked="Zendeskweb"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
