@@ -4,7 +4,7 @@
              x:Class="Hixon.Pages.ZendeskSupportWeb">
     <ContentPage.Content>
         <StackLayout>
-            <WebView Source="https://vostro.zendesk.com/hc/en-gb/requests/new " WidthRequest="1000" HeightRequest="960"/>
+            <WebView Source="https://vostro.zendesk.com/hc/en-gb/requests/new " WidthRequest="1000" HeightRequest="1000"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
