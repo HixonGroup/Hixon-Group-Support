@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Hixon
+namespace Hixon.Pages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class HixonGroupWeb : ContentPage 
+	public partial class HixonGroupPage : ContentPage
 	{
-		public HixonGroupWeb ()
+		public HixonGroupPage ()
 		{
 			InitializeComponent ();
 		}

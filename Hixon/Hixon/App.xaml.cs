@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Hixon.Pages;
+using System;
 using Xamarin.Forms;
-using Hixon;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation (XamlCompilationOptions.Compile)]
@@ -13,8 +13,8 @@ namespace Hixon
 		{
 			InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
-		}
+            MainPage = new MainPage();
+        }
 
 		protected override void OnStart ()
 		{

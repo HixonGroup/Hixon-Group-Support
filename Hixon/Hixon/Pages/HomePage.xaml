@@ -1,14 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Hixon.MainPage"
+             x:Class="Hixon.Pages.HomePage"
              BackgroundImage="dark-bg-16.png">
-
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Name="HixonGroupWeb" Order="Primary" Text="Hixon Group Website" Priority="0" Clicked="Hixongroupweb" />
-        <ToolbarItem Name="ZendeskSupportWeb" Order="Primary" Text="Hixon Group Support" Priority="1" Clicked="Zendeskweb" />
-    </ContentPage.ToolbarItems>
-
+    
     <ContentPage.Content>
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
             <StackLayout Padding="0,650,0,0" Orientation="Vertical" HorizontalOptions="FillAndExpand">
