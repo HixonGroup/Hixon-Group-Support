@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Hixon.MainPage">
+             x:Class="Hixon.MainPage"
+             BackgroundImage="dark-bg-16.png">
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="HixonGroupWeb" Order="Primary" Text="Hixon Group Website" Priority="0" Clicked="Hixongroupweb" />
@@ -9,30 +10,26 @@
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
-        <StackLayout>
-            <Label x:Name="Hixon" 
-                   VerticalOptions="Start"
-                   HorizontalOptions="FillAndExpand" 
-                   Text="We Help Businesses To Succeed Using Innovative Technology Solutions" 
-                   BackgroundColor="DodgerBlue"/>
-
-
-            <Button x:Name="HixonGroupWeb" 
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+            <StackLayout Padding="0,650,0,0" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                <Button x:Name="HixonGroupWeb"
                     Style="{StaticResource buttonStyle}" 
                     BorderWidth="1" 
                     Text="Hixon Group Website"
-                    VerticalOptions="Start"
-                    HorizontalOptions="FillAndExpand" 
+                    VerticalOptions="Center"
+                    HorizontalOptions="End" 
                     Clicked="Hixongroupweb"/>
-            
-            <Button x:Name="ZendeskSupportWeb" 
+            </StackLayout>
+            <StackLayout Padding="0,650,0,0" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                <Button x:Name="ZendeskSupportWeb" 
                     Style="{StaticResource buttonStyle}" 
                     BorderWidth="1" 
                     Text="Hixon Group Support"
-                    VerticalOptions="Start"
-                    HorizontalOptions="FillAndExpand" 
+                    VerticalOptions="Center"
+                    HorizontalOptions="Start" 
                     Clicked="Zendeskweb"/>
-            
+
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
