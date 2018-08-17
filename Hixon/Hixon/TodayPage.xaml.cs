@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Hixon.Pages
+namespace Hixon
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class ZendeskSupportWeb : ContentPage
+	public partial class TodayPage : ContentPage
 	{
-		public ZendeskSupportWeb ()
+		public TodayPage ()
 		{
 			InitializeComponent ();
 		}

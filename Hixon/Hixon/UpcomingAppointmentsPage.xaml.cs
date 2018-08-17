@@ -10,11 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace Hixon
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class HixonGroupWeb : ContentPage 
+	public partial class UpcomingAppointmentsPage : ContentPage
 	{
-		public HixonGroupWeb ()
+		public UpcomingAppointmentsPage ()
 		{
 			InitializeComponent ();
 		}
-	}
+
+        async void OnBackButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
+    }
 }
