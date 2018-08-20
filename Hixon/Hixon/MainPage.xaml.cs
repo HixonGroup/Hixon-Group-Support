@@ -4,13 +4,13 @@ using Xamarin.Forms.Xaml;
 
 namespace Hixon
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MainPage : ContentPage
-	{
-		public MainPage ()
-		{
-			InitializeComponent ();
-		}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+        }
 
         async void Hixongroupweb(object sender, EventArgs e)
         {

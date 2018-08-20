@@ -11,8 +11,7 @@
                     VerticalOptions="Start"
                     HorizontalOptions="FillAndExpand" 
                     Clicked="Backbtn"/>
-                </StackLayout>
-            
+            </StackLayout>
             <StackLayout Padding="0,0,0,0">
                 <WebView Source="https://hixongroup.com/ " WidthRequest="1000" HeightRequest="960"/>
             </StackLayout>

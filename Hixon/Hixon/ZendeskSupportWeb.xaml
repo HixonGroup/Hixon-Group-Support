@@ -12,7 +12,6 @@
                     HorizontalOptions="FillAndExpand" 
                     Clicked="Backbtn"/>
             </StackLayout>
-
             <StackLayout Padding="0,0,0,0">
                 <WebView Source="https://vostro.zendesk.com/hc/en-gb/requests/new " WidthRequest="1000" HeightRequest="960"/>
             </StackLayout>

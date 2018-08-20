@@ -7,39 +7,38 @@
 
     <ContentPage.Content>
         <StackLayout>
-                <StackLayout Padding="0,350,0,0" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="FillAndExpand">
-                    <Label Text="We Help Businesses To Succeed Using Innoative Technology Solutions" 
+            <StackLayout Padding="0,350,0,0" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="FillAndExpand">
+                <Label Text="We Help Businesses To Succeed Using Innoative Technology Solutions" 
                            TextColor="White" 
                            HorizontalTextAlignment="Center"
                            FontAttributes="Bold" 
                            FontSize="Large"/>
-                    <Label Text="Transform your business with technology that can help you to reduce complexity, improve productivity and boost growth." 
+                <Label Text="Transform your business with technology that can help you to reduce complexity, improve productivity and boost growth." 
                            TextColor="White" 
                            HorizontalTextAlignment="Center"
                            FontAttributes="None" 
                            FontSize="Medium"/>
-                </StackLayout>
-                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
-            <StackLayout Padding="0,0,0,400" Orientation="Vertical" HorizontalOptions="FillAndExpand">
-                <Button x:Name="HixonGroupWeb"
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <StackLayout Padding="0,0,0,400" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                    <Button x:Name="HixonGroupWeb"
                     Style="{StaticResource buttonStyle}" 
                     BorderWidth="1" 
                     Text="Hixon Group Website"
                     VerticalOptions="Center"
                     HorizontalOptions="End" 
                     Clicked="Hixongroupweb"/>
-            </StackLayout>
-            <StackLayout Padding="0,0,0,400" Orientation="Vertical" HorizontalOptions="FillAndExpand">
-                <Button x:Name="ZendeskSupportWeb" 
+                </StackLayout>
+                <StackLayout Padding="0,0,0,400" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                    <Button x:Name="ZendeskSupportWeb" 
                     Style="{StaticResource buttonStyle}" 
                     BorderWidth="1" 
                     Text="Hixon Group Support"
                     VerticalOptions="Center"
                     HorizontalOptions="Start" 
                     Clicked="Zendeskweb"/>
-
+                </StackLayout>
             </StackLayout>
-        </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
