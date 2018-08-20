@@ -4,6 +4,10 @@
              x:Class="Hixon.App">
 	<Application.Resources>
 		<ResourceDictionary>
+            
+            <!--BackGround Image Source-->
+            
+            
             <!--Global Styles-->
             <Color x:Key="NavigationPrimary">#ffffff</Color>
             <Style TargetType="NavigationPage">
@@ -24,7 +28,7 @@
                 <Setter Property="TextColor" Value="White" />
                 <Setter Property="WidthRequest" Value="50" />
                 <Setter Property="HeightRequest" Value="50" />
-                <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="BorderColor" Value="#0084bf"/>
             </Style>
         </ResourceDictionary>
 	</Application.Resources>

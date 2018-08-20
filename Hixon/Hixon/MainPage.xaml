@@ -4,7 +4,6 @@
              x:Class="Hixon.MainPage"
              BackgroundImage="dark-bg-16.png"
              NavigationPage.HasNavigationBar="false">
-    
 
     <ContentPage.Content>
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">

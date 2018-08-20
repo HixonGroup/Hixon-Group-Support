@@ -4,13 +4,12 @@
              x:Class="Hixon.ZendeskSupportWeb">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout Padding="0,0,0,0">
+            <StackLayout Padding="0,0,0,0" HorizontalOptions="FillAndExpand">
                 <Button x:Name="MainPage"
-                    Style="{StaticResource backbuttonStyle}" 
-                    BorderWidth="1"
+                    Style="{StaticResource backbuttonStyle}"
                     Text="Back"
                     VerticalOptions="Start"
-                    HorizontalOptions="Start" 
+                    HorizontalOptions="FillAndExpand" 
                     Clicked="Backbtn"/>
             </StackLayout>
 
