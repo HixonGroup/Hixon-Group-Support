@@ -10,11 +10,19 @@
                 <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
                 <Setter Property="BarTextColor" Value="Gray"/>
             </Style>
-            <!--Button Styles-->
+            <!--Main Button Style-->
             <Style x:Key="buttonStyle" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="#0084bf" />
                 <Setter Property="TextColor" Value="White" />
                 <Setter Property="WidthRequest" Value="200" />
+                <Setter Property="HeightRequest" Value="50" />
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
+            <!--Back Button Style-->
+            <Style x:Key="backbuttonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#0084bf" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="WidthRequest" Value="50" />
                 <Setter Property="HeightRequest" Value="50" />
                 <Setter Property="CornerRadius" Value="5" />
             </Style>

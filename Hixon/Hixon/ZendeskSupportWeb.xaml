@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hixon.ZendeskSupportWeb">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="0,0,0,0">
+                <Button x:Name="MainPage"
+                    Style="{StaticResource backbuttonStyle}" 
+                    BorderWidth="1"
+                    Text="Back"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start" 
+                    Clicked="Backbtn"/>
+            </StackLayout>
+
+            <StackLayout Padding="0,0,0,0">
+                <WebView Source="https://vostro.zendesk.com/hc/en-gb/requests/new " WidthRequest="1000" HeightRequest="960"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
