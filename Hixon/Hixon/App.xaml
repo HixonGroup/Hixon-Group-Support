@@ -18,6 +18,14 @@
                 <Setter Property="HeightRequest" Value="50" />
                 <Setter Property="CornerRadius" Value="5" />
             </Style>
+            <!--Second Button Style-->
+            <Style x:Key="secondbuttonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#0084bf" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="WidthRequest" Value="405" />
+                <Setter Property="HeightRequest" Value="50" />
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
             <!--Back Button Style-->
             <Style x:Key="backbuttonStyle" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="#0084bf" />

@@ -19,6 +19,19 @@
                        FontAttributes="None" 
                        FontSize="Medium"/>
             </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <StackLayout Padding="0,50,0,0" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                    <Button x:Name="ZendeskSupport"
+                    Style="{StaticResource secondbuttonStyle}" 
+                    BorderWidth="1" 
+                    Text="Hixon Group Support"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center" 
+                    Clicked="Zendesksupport"/>
+                </StackLayout>
+            </StackLayout>
+
             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                 <StackLayout Padding="0,0,0,450" Orientation="Vertical" HorizontalOptions="FillAndExpand">
                     <Button x:Name="HixonGroupWeb"
@@ -33,10 +46,10 @@
                     <Button x:Name="ZendeskSupportWeb" 
                     Style="{StaticResource buttonStyle}" 
                     BorderWidth="1" 
-                    Text="Hixon Group Support"
+                    Text="Submit a Support Ticket"
                     VerticalOptions="Center"
                     HorizontalOptions="Start" 
-                    Clicked="Zendeskweb"/>
+                    Clicked="Zendesksupport"/>
                 </StackLayout>
             </StackLayout>
         </StackLayout>

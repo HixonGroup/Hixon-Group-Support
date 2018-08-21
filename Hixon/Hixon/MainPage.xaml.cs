@@ -20,5 +20,9 @@ namespace Hixon
         {
             await Navigation.PushModalAsync(new ZendeskSupportWeb());
         }
+        async void Zendesksupport(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new HixongroupSupportWeb());
+        }
     }
 }
