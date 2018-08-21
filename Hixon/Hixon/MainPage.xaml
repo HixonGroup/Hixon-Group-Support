@@ -7,20 +7,20 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout Padding="0,350,0,0" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="FillAndExpand">
+            <StackLayout Padding="20,350,20,0" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="FillAndExpand">
                 <Label Text="We Help Businesses To Succeed Using Innoative Technology Solutions" 
-                           TextColor="White" 
-                           HorizontalTextAlignment="Center"
-                           FontAttributes="Bold" 
-                           FontSize="Large"/>
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"
+                       FontAttributes="Bold" 
+                       FontSize="Large"/>
                 <Label Text="Transform your business with technology that can help you to reduce complexity, improve productivity and boost growth." 
-                           TextColor="White" 
-                           HorizontalTextAlignment="Center"
-                           FontAttributes="None" 
-                           FontSize="Medium"/>
+                       TextColor="White" 
+                       HorizontalTextAlignment="Center"
+                       FontAttributes="None" 
+                       FontSize="Medium"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                <StackLayout Padding="0,0,0,400" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                <StackLayout Padding="0,0,0,450" Orientation="Vertical" HorizontalOptions="FillAndExpand">
                     <Button x:Name="HixonGroupWeb"
                     Style="{StaticResource buttonStyle}" 
                     BorderWidth="1" 
@@ -29,7 +29,7 @@
                     HorizontalOptions="End" 
                     Clicked="Hixongroupweb"/>
                 </StackLayout>
-                <StackLayout Padding="0,0,0,400" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                <StackLayout Padding="0,0,0,450" Orientation="Vertical" HorizontalOptions="FillAndExpand">
                     <Button x:Name="ZendeskSupportWeb" 
                     Style="{StaticResource buttonStyle}" 
                     BorderWidth="1" 
