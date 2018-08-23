@@ -49,7 +49,7 @@
                     Text="Submit a Support Ticket"
                     VerticalOptions="Center"
                     HorizontalOptions="Start" 
-                    Clicked="Zendesksupport"/>
+                    Clicked="Zendeskweb"/>
                 </StackLayout>
             </StackLayout>
         </StackLayout>
